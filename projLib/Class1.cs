@@ -14,4 +14,15 @@ public class Class1
         string name = Console.ReadLine();
         System.Console.WriteLine("Hello " + name);
     }
+
+    public static void RandomWords()
+    {
+        string[] randomNames ={
+            "Isaac", "Jacob", "John"
+        };
+
+        Random random = new Random();
+        int randomIndex = random.Next(0, 3);
+            System.Console.WriteLine(randomNames[randomIndex]);
+    }
 }
