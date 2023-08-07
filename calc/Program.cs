@@ -11,3 +11,5 @@ do
     System.Console.WriteLine("Roll again?");
     retry = Console.ReadLine();
 }while(retry == "yes");
+
+System.Console.WriteLine("hello.......................");
