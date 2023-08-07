@@ -13,6 +13,7 @@ do
     if(retry == "n")
         {
             do{
+                System.Console.WriteLine("print random names? now?");
                 userChoice = Console.ReadLine();
                 Class1.RandomWords();
             }while(userChoice == "y");
